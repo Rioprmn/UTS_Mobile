@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounf">
+
+
+
+    <ImageView
+        android:id="@+id/splashLogo"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:maxWidth="190dp"
+        android:maxHeight="190dp"/>
+
+    <TextView
+        android:id="@+id/splashText"
+        android:text="Welcome to Schedule List"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@id/splashLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
